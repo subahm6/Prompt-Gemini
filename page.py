@@ -1,6 +1,6 @@
 import pip
 
-pip.main(['install','google-generative-ai'])
+pip.main(['install','google-generativeai'])
 
 import streamlit as st
 from new import Jarvis,jarvis_vision
