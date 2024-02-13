@@ -2,5 +2,5 @@ pip == 24.0
 numpy
 streamlit
 google.generativeai
-json
+
 
