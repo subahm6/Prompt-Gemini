@@ -44,7 +44,7 @@ def Jarvis( input_text):
 
 def jarvis_vision(input,image : str):
    genai.configure(api_key="AIzaSyDLfKSSEKLpTJfV_qZWbCyo4m09wOGxxLU")
-   model = genai.GenerativeModel('gemini-pro-vision')
+   model = genai.GenerativeModel('gemini-1.5-pro-latest')
    image = PIL.Image.open(image)
    exe = model.generate_content([input,image])
    return exe.text
