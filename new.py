@@ -18,7 +18,7 @@ def Jarvis( input_text):
     
     genai.configure(api_key="AIzaSyDLfKSSEKLpTJfV_qZWbCyo4m09wOGxxLU")
 
-    model = genai.GenerativeModel('gemini-pro')
+    model = genai.GenerativeModel('gemini-2.0-flash')
 
    
     com = model.start_chat()
