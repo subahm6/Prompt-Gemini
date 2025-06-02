@@ -16,7 +16,7 @@ def store_data(input_text, intent_text):
 
 def Jarvis( input_text):
     
-    genai.configure(api_key="AIzaSyBUOr080ur8x4TomA3BqwAQHkvyaS6mcFY")
+    genai.configure(api_key="AIzaSyDLfKSSEKLpTJfV_qZWbCyo4m09wOGxxLU")
 
     model = genai.GenerativeModel('gemini-pro')
 
@@ -43,7 +43,7 @@ def Jarvis( input_text):
     
 
 def jarvis_vision(input,image : str):
-   genai.configure(api_key="AIzaSyBUOr080ur8x4TomA3BqwAQHkvyaS6mcFY")
+   genai.configure(api_key="AIzaSyDLfKSSEKLpTJfV_qZWbCyo4m09wOGxxLU")
    model = genai.GenerativeModel('gemini-pro-vision')
    image = PIL.Image.open(image)
    exe = model.generate_content([input,image])
